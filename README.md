@@ -4,7 +4,7 @@ The current work is practically branched from Robb Owen's [Synthwave '84](https:
 The color scheme reference for this theme has its roots in [this Cyberpunk 77 artwork](https://www.iamag.co/the-art-of-cyberpunk-2077/#jp-carousel-336960), being tweaked and tested for [accessibility](http://www.color-blindness.com/coblis-color-blindness-simulator/).
 
 ## Installation
-[Install the theme from the VS Marketplace](https://marketplace.visualstudio.com/items?itemName=RobbOwen.synthwave-vscode).
+[Install the theme from the VS Marketplace](https://marketplace.visualstudio.com/items?itemName=CodeReviewer14.cyber77-vscode).
 
 Synthwave '84 disclamer warns us that *VS code doesn't natively support text effects and as a result, the glow is experimental. It's likely to be buggy and, whilst it looks rad, it isn't intended for extended use*. 
 
