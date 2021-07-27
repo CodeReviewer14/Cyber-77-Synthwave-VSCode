@@ -1,0 +1,78 @@
+{
+    "name": "cyber77-vscode",
+    "displayName": "Cyber '77",
+    "description": "A theme inspired by  Synthwave '84 & Deepdark Material and the Cyberpunk 77 game",
+    "version": "0.0.14",
+    "preview": true,
+    "author": "Code Reviewer 14",
+    "publisher": "CodeReviewer14",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/CodeReviewer14/Cyber-77-Synthwave-VSCode"
+    },
+    "engines": {
+        "vscode": "^1.33.0"
+    },
+    "license": "MIT",
+    "scripts": {
+        "build": "vsce package",
+        "postversion": "npm run build",
+        "patch-version": "npm version patch"
+    },
+    "icon": "icon.png",
+    "keywords": [
+        "Glow",
+        "Glowing",
+        "Dark",
+        "Theme",
+        "Vibrant"
+    ],
+    "categories": [
+        "Themes"
+    ],
+    "activationEvents": [
+        "*",
+        "onCommand:cyber77.enableNeon"
+    ],
+    "main": "./src/extension.js",
+    "contributes": {
+        "themes": [
+            {
+                "label": "Cyber '77",
+                "uiTheme": "vs-dark",
+                "path": "./themes/synthwave-color-theme.json"
+            }
+        ],
+        "commands": [
+            {
+                "command": "cyber77.enableNeon",
+                "title": "Cyber '77: Enable Neon Dreams"
+            },
+            {
+                "command": "cyber77.disableNeon",
+                "title": "Cyber '77: Disable Neon Dreams"
+            }
+        ],
+        "configuration": {
+            "title": "Cyber '77",
+            "properties": {
+                "cyber77.brightness": {
+                    "type": "number",
+                    "default": 0.45,
+                    "description": "Set the brightness value for the glow effect. 0.0 is fully transparent and 1.0 is fully bright"
+                },
+                "cyber77.disableGlow": {
+                    "type": "boolean",
+                    "default": false,
+                    "description": "Disable the glow effect, but show Cyber '77 editor chrome updates"
+                }
+            }
+        }
+    },
+    "dependencies": {
+        "semver": "^7.1.1"
+    },
+    "devDependencies": {
+        "vsce": "^1.84.0"
+    }
+}
