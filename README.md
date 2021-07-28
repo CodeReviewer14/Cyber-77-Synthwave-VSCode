@@ -9,8 +9,6 @@ The color scheme reference for this theme has its roots in [this Cyberpunk 77 ar
 Synthwave '84 disclamer warns us that *VS code doesn't natively support text effects and as a result, the glow is experimental. It's likely to be buggy and, whilst it looks rad, it isn't intended for extended use*. 
 
 ### To enable the glow
-Install this [excellent plugin that allows you to load custom CSS and JS](https://marketplace.visualstudio.com/items?itemName=be5invis.vscode-custom-css) from the VS Marketplace. **Please carefully read the ReadMe regarding permission for that extension before continuing with this installation.**
-
 Open your command palette with `Ctrl + Shift + P` or `Shift + ⌘ + P` and choose "Cyber '77: Enable Neon Dreams". It will prompt you to restart, and when this is done, the glow should be activated.
 
 ## Updates
