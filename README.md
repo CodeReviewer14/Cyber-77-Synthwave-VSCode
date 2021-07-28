@@ -3,6 +3,8 @@ The current work is practically branched from Robb Owen's [Synthwave '84](https:
 
 The color scheme reference for this theme has its roots in [this Cyberpunk 77 artwork](https://www.iamag.co/the-art-of-cyberpunk-2077/#jp-carousel-336960), being tweaked and tested for [accessibility](http://www.color-blindness.com/coblis-color-blindness-simulator/).
 
+![Neon glowing text](./demo.png)
+
 ## Installation
 [Install the theme from the VS Marketplace](https://marketplace.visualstudio.com/items?itemName=CodeReviewer14.cyber77-vscode).
 
