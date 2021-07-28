@@ -1,4 +1,7 @@
 ## Inspiration
+
+![Banner](./banner.png)
+
 The current work is practically branched from Robb Owen's [Synthwave '84](https://github.com/robb0wen/synthwave-vscode), bringing a dark twist to the original theme's unique glowing vision.
 
 The color scheme reference for this theme has its roots in [this Cyberpunk 77 artwork](https://www.iamag.co/the-art-of-cyberpunk-2077/#jp-carousel-336960), being tweaked and tested for [accessibility](http://www.color-blindness.com/coblis-color-blindness-simulator/).
