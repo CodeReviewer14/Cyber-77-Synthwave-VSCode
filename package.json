@@ -2,7 +2,7 @@
     "name": "cyber77-vscode",
     "displayName": "Cyber '77",
     "description": "A theme inspired by  Synthwave '84 & Deepdark Material and the Cyberpunk 77 game",
-    "version": "0.0.14",
+    "version": "0.0.18",
     "preview": true,
     "author": "Code Reviewer 14",
     "publisher": "CodeReviewer14",
@@ -32,7 +32,8 @@
     ],
     "activationEvents": [
         "*",
-        "onCommand:cyber77.enableNeon"
+        "onCommand:cyber77.enableNeon",
+        "onCommand:cyber77.disableNeon"
     ],
     "main": "./src/extension.js",
     "contributes": {
